@@ -9,7 +9,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="FyyyyK/device_asus_X00TD" remote="github" revision="main" />
         <project path="vendor/asus" name="FyyyyK/proprietary_vendor_asus" remote="github" revision="main" />
-        <project path="kernel/asus/sdm660" name="Tiktodz/android_kernel_asus_sdm636" remote="github" revision="master"/>
+        <project path="kernel/asus/sdm660" name="FyyyyK/android_kernel_asus_sdm660" remote="github" revision="master"/>
         <project path="device/asus/sdm660-common" name="FyyyyK/device_asus_sdm660-common" remote="github" revision="main" />
 
         <!-- Hals stuff -->
