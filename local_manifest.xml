@@ -2,22 +2,23 @@
 
 <manifest>
 
-        <remote name="lineage"
-        fetch="https://github.com/LineageOS"
-        revision="refs/heads/lineage-18.1" />
+  <remote name="FyyyyK"
+          fetch="https://github.com/FyyyyK" />
+
+  <remote name="LineageOS"
+          fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="FyyyyK/device_asus_X00TD" remote="github" revision="main" />
-        <project path="vendor/asus" name="FyyyyK/proprietary_vendor_asus" remote="github" revision="main" />
-        <project path="kernel/asus/sdm660" name="FyyyyK/android_kernel_asus_sdm660" remote="github" revision="master"/>
-        <project path="device/asus/sdm660-common" name="FyyyyK/device_asus_sdm660-common" remote="github" revision="main" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="11" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="FyyyyK" revision="11" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="FyyyyK" revision="master"/>
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="11" />
 
-        <!-- Hals stuff -->
+        <!-- Remove -->
+        <remove-project name="packages_apps_SoftAPManager" />
         <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-18.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.1-caf-msm8998" />
+
+        <!-- Clone Hals -->
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
 
 </manifest>
