@@ -2,6 +2,9 @@
 
 <manifest>
 
+    <remote name="FyyyyK"
+          fetch="https://github.com/FyyyyK" />
+
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
 
