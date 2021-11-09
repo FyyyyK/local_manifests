@@ -12,10 +12,10 @@
           fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="11" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="corvus" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="FyyyyK" revision="11" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master"/>
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="11" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="LV"/>
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="corvus" />
 
         <!-- Remove -->
         <remove-project name="android_hardware_qcom_audio" />
