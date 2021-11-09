@@ -8,9 +8,6 @@
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
 
-  <remote name="LineageOS"
-          fetch="https://github.com/LineageOS" />
-
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="main" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="FyyyyK" revision="main" />
