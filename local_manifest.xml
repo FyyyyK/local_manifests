@@ -8,8 +8,8 @@
           fetch="https://github.com/Kendras056" />
   <remote name="pkm774"
           fetch="https://github.com/pkm774" />
-  <remote name="codeaurora"
-          fetch="https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/" />
+  <remote name="LineageOS"
+          fetch="https://LineageOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="11" />
@@ -18,7 +18,6 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="11" />
 
         <!-- Remove -->
-        <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
         <remove-project name="android_vendor_qcom_opensource_power" />
         <remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
@@ -26,11 +25,10 @@
         <remove-project name="android_hardware_qcom_thermal" />
 
         <!-- HALs -->
-        <project path="vendor/qcom/opensource/commonsys-intf/display" name="display-commonsys-intf" remote="codeaurora" revision="display-sysintf.lnx.1.2.r12-rel" />
         <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pkm774" revision="power.legacyopensource.lnx.1.0.r15-rel" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="pkm774" revision="display.lnx.3.4.r3-rel" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="pkm774" revision="video-userspace.lnx.2.10.r10-rel" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pkm774" revision="audio-hal.lnx.8.0.r14-rel" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
         <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="pkm774" revision="aosp-new/android11-qpr3-s1-release" />
 
 </manifest>
