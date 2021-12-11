@@ -18,10 +18,12 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="11" />
 
         <!-- Remove -->
-        <remove-project name="vendor/qcom/opensource/power" />
-        <remove-project name="hardware/qcom-caf/msm8998" />
-        <remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" />
-        <remove-project name="packages/resources/devicesettings" />
+        <remove-project name="android_vendor_qcom_opensource_power" />
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+        <remove-project name="android_packages_resources_devicesettings" />
 
         <!-- HALs -->
         <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="LineageOS" revision="lineage-18.1" />
