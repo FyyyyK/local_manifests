@@ -16,7 +16,6 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="10" />
 
         <!-- Remove -->
-        <remove-project name="android_packages_apps_Settings" />
         <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="LOS-MilkTea" revision="lineage-17.1" />
 
 </manifest>
