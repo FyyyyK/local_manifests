@@ -9,7 +9,7 @@
   <remote name="pkm774"
           fetch="https://github.com/pkm774" />
   <remote name="LineageOS"
-          fetch="https://LineageOS" />
+          fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="11" />
