@@ -4,16 +4,16 @@
 
     <remote name="FyyyyK"
           fetch="https://github.com/FyyyyK" />
-  <remote name="Kendras"
+  <remote name="Kendras056"
           fetch="https://github.com/Kendras056" />
   <remote name="LOS-MilkTea"
           fetch="https://github.com/LOS-MilkTea" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="main" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="FyyyyK" revision="main" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="10" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="FyyyyK" revision="10" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Kendras056" revision="req"/>
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="main" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="10" />
 
         <!-- Remove -->
         <remove-project name="android_packages_apps_Settings" />
