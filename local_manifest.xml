@@ -4,14 +4,33 @@
 
     <remote name="FyyyyK"
           fetch="https://github.com/FyyyyK" />
-
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
+  <remote name="Kneba"
+          fetch="https://github.com/Kneba" />
+  <remote name="LineageOS"
+          fetch="https://github.com/LineageOS" />
+  <remote name="ElectroPerf"
+          fetch="https://github.com/ElectroPerf" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="main" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="FyyyyK" revision="main" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master"/>
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="main" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="11" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="FyyyyK" revision="11" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="r38"/>
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="11" />
+
+        <!-- Remove -->
+        <remove-project path="vendor/qcom/opensource/power" />
+        <remove-project path="hardware/qcom-caf/msm8998" />
+        <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" />
+        <remove-project path="packages/resources/devicesettings" />
+
+        <!-- HALs -->
+        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="LineageOS" revision="lineage-18.1" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
+        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-18.1" />
+        <project path="vendor/addons/oneplus/apps" name="vendor_addons_oneplus_apps" remote="ElectroPerf" revision="OOS11" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-18.1" />
+        <project path="vendor/extras" name="vendor_extras" remote="ElectroPerf" revision="11" />
 
 </manifest>
