@@ -8,8 +8,8 @@
           fetch="https://github.com/Kendras056" />
   <remote name="pkm774"
           fetch="https://github.com/pkm774" />
-  <remote name="LineageOS"
-          fetch="https://github.com/LineageOS" />
+  <remote name="codeaurora"
+          fetch="https://source.codeaurora.org" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="11" />
@@ -23,6 +23,8 @@
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
         <remove-project name="android_hardware_qcom_thermal" />
+        <remove-project name="external_tinyalsa" />
+        <remove-project name="external_compress" />
 
         <!-- HALs -->
         <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pkm774" revision="power.legacyopensource.lnx.1.0.r15-rel" />
@@ -30,5 +32,7 @@
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
         <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="pkm774" revision="aosp-new/android11-qpr3-s1-release" />
+        <project path="external/tinyalsa" name="tinyalsa" remote="codeaurora" revision="ks-aosp.lnx.3.0.r15-rel" />
+        <project path="external/tinyalsa" name="tinycompress" remote="codeaurora" revision="ks-aosp.lnx.3.0.r15-rel" />
 
 </manifest>
