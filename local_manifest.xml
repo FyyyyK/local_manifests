@@ -24,7 +24,7 @@
         <remove-project name="android_hardware_qcom_media" />
         <remove-project name="android_hardware_qcom_thermal" />
         <remove-project name="android_external_tinyalsa" />
-        <remove-project name="android_external_compress" />
+        <remove-project name="android_external_tinycompress" />
 
         <!-- HALs -->
         <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pkm774" revision="power.legacyopensource.lnx.1.0.r15-rel" />
