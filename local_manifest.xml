@@ -11,7 +11,7 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="FyyyyK" revision="10" />
-        <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="FyyyyK" revision="lineage-17.1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="FyyyyK" revision="main" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Kendras056" revision="req"/>
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="FyyyyK" revision="10" />
 
